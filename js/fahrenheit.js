@@ -9,7 +9,7 @@ alert("Essa temperatura Não existe");
 else{
 
 celsius =  (Fahrenheit -32)/1.8;
-kelvin = celsius + 273;
+kelvin = celsius + 273.15;
 var arredondacel = parseFloat(celsius.toFixed(2));
 var arredondakel = parseFloat(kelvin.toFixed(2));
 

@@ -4,10 +4,10 @@ var Fahrenheit = 0;
 var celsius = document.getElementById("cel").value;
 celsius = parseInt(celsius);
 if(celsius == "" || celsius < - 273.15){
-    alert("Essa temperatura Não existe");
-    }
-    else{
-kelvin = celsius + 273;
+alert("Essa temperatura Não existe");
+}
+else{
+kelvin = celsius + 273.15;
 Fahrenheit = 1.8 * celsius + 32;
 var arredondakel = parseFloat(kelvin.toFixed(2));
 var arredondafar = parseFloat(Fahrenheit.toFixed(2));

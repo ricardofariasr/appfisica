@@ -1,0 +1,11 @@
+.bt{
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

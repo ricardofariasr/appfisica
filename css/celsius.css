@@ -1,16 +1,32 @@
 .bt{
     border: 0;
-    padding: 10px;
+    padding: 30px;
     width: 200px;
     height: 100px;
     display: inline-block;
-    margin: 100px;
+    margin: 110px;
     cursor: pointer;
-    border-radius: 5px;
+   
+    top:50%;
+    left:50%;
+    transform: translate(450%, 180.8%);
     }
+ 
+    h1{
+            color: yellow;
+            margin-left: 400px;
+        }
+
+
+body{
+    background-color: red;
     
-    #centralizar{
-        position:absolute; 
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);}
+}
+
+            
+           
+       
+            
+ 
+            
+       

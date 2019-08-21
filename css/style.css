@@ -11,25 +11,27 @@
 
 }
 body{
-    background-image: linear-gradient(lightblue, violet);
+    background-image: linear-gradient(lightblue, orange, red);
 }
   #centralizar{
     position:absolute; 
     top:50%;
     left:50%;
-    transform: translate(-50%, 0%);
+    transform: translate(40%, 0%);
+  
 }  
 #centraliza{
   position:absolute; 
   top:50%;
   left:50%;
-  transform: translate(-140%, 0%);
+  transform: translate(-50%, 0%);
 }
 #centralizer{
-  position:absolute; 
-  top:50%;
-  left:50%;
-  transform: translate(40%, 0%);
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-140%, 0%);
+
 }
 h1{
     color: navy;

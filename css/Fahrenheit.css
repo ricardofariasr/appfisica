@@ -11,18 +11,24 @@
     left:50%;
     transform: translate(450%, 180.8%);
     }
- 
-    h1{
-            color: navy;
-            margin-left: 400px;
-        }
 
 
-body{
-    background-color: lightblue;
+    body{
+
+        background-color: lightblue;
+        
+    }
     
-}
+        div.retangulof{
+            width: 1920px; 
+            height: 100px; 
+            background: #1C1C1C;    
+    }
 
+    h1{
+        color: navy;
+        margin-left: 400px;
+    }
 
 
 .center {

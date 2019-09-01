@@ -12,17 +12,26 @@
     transform: translate(450%, 180.8%);
     }
  
-    h1{
-            color: yellow;
-            margin-left: 400px;
-        }
-
-
 body{
+    
     background-color: red;
+    
     
 }
 
+div.retangulo {
+    width: 1920px; 
+    height: 100px; 
+    background: #1C1C1C;
+    }
+
+    h1{
+        
+        color: yellow;
+            margin-left: 400px;
+        }
+
+    
 
 
 .center {

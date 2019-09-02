@@ -9,7 +9,7 @@ function _onClick(){
     else{
         kelvin = parseInt(kelvin);
     celsius = kelvin - 273.15;
-    Fahrenheit = 1.8 * (kelvin - 273 ) + 32;
+    Fahrenheit = 1.8 * (kelvin - 273 ) + 32 ;
     var arredondacel = parseFloat(celsius.toFixed(2));
     var arredondafar = parseFloat(Fahrenheit.toFixed(2));
     alert("A temperatura em graus kelvin digitada, foi: " + kelvin + "°. \n Essa temperatura em graus Fahrenheit é aproximadamente: "+arredondafar+ "°.\n E em celsius é aproximadamente: "+arredondacel+ "°.");

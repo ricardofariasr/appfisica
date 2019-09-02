@@ -1,3 +1,15 @@
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}body{
+	background:linear-gradient(red, #A62671) center top no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+
 .bt{
     border: 0;
     padding: 10px;
@@ -13,10 +25,11 @@
             margin-left: 300px;
         }
 
+        /*  45deg,#A62671,red 50%,#A62671  ///   45deg,#A62671,red 50%,#A62671  
+        body{
+        background-color:red;
+        }*/
 
-body{
-    background-color: red;
-}
 #centralizar{
         position:absolute; 
         top:50%;

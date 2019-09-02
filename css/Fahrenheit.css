@@ -1,68 +1,28 @@
 .bt{
     border: 0;
-    padding: 30px;
+    padding: 10px;
     width: 200px;
     height: 100px;
     display: inline-block;
-    margin: 110px;
+    margin: 100px;
     cursor: pointer;
-   
-    top:50%;
-    left:50%;
-    transform: translate(450%, 180.8%);
+    border-radius: 5px;
     }
-
-    @import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
-    body{
-      font-family: 'Istok Web', sans-serif;
-      color: #fafafa;
+    
+    #centralizar{
+        position:absolute; 
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
-    .gradientf {
-        position: relative;
-        padding: 10% 8%;
-      text-align: center;
-        background-image: -webkit-linear-gradient(45deg, #85d8ce,#085078 50%,#85d8ce);
-        background-image: linear-gradient(45deg,#85d8ce,#085078 50%,#85d8ce);
-    } 
-    /*
-    body{
-        background-color: lightblue;    
-    }
-    */    
+ body{
+    background-color: lightblue;
 
-    /*#085078 #85d8ce  */
-
-    div.retangulof{
-            width: 1920px; 
-            height: 100px; 
-            background: #1C1C1C;    
-    }
-
-    h1{
-        color: navy;
-        margin-left: 400px;
-    }
-
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    transform: translate(-10%, 0%);
-}
-
-.inputlabel {
-    margin-left: 0px;
-    font-size: 20px;
-    padding:16px 0 17px 0;
-    text-align: center;
-    text-justify: inter-word;
-    white-space: pre-wrap;
+ }
+ h1{
     color: navy;
-}
-input {
-    position: relative; 
-    top: 20px; 
-    left: 3px;
-  }
+
+        margin-left: 400px; 
+        }
+    

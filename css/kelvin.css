@@ -1,74 +1,27 @@
 .bt{
     border: 0;
-    padding: 30px;
-    width: 220px;
+    padding: 10px;
+    width: 200px;
     height: 100px;
     display: inline-block;
-    margin: 110px;
+    margin: 100px;
     cursor: pointer;
-   
-    top:50%;
-    left:50%;
-    transform: translate(450%, 180.8%);
+    border-radius: 5px;
     }
-    /*
-    body{
-        background-color: orange;  
-    }
-    */
-    @import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
-    body{
-      font-family: 'Istok Web', sans-serif;
-      color: #fafafa;
-    }
-    .gradientk {
-        position: relative;
-        padding: 10% 8%;
-      text-align: center;
-        background-image: -webkit-linear-gradient(45deg,orange,rgba(249, 107, 72, 0.856) 50%,orange);
-        background-image: linear-gradient(45deg,orange,rgba(249, 107, 72, 0.856) 50%,orange);
-    }            
     
+    #centralizar{
+        position:absolute; 
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    body{
+        background-color: orange;
+
+    }
     h1{
-        color: navy ;
-        margin-left: 400px;
-    }
+        color: navy;
 
-    .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    transform: translate(-10%, 0%);
-    }
-
-.inputlabel {
-margin-left: -50px;
-font-size: 20px;
-padding:16px 0 17px 0;
-text-align: center;
-text-justify: inter-word;
-white-space: pre-wrap;
-color: navy;
-}
-input {
-position: relative; 
-top: 15px; 
-left:1px;
-}
-
-    div.retangulok{
-        
-            width: 1920px; 
-            height: 100px; 
-            background: #1C1C1C;
-        
-    }
-
-
-
-       
-            
- 
-            
-       
+            margin-left: 400px; 
+            } 

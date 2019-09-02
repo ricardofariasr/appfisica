@@ -1,76 +1,32 @@
 .bt{
     border: 0;
+    padding: 10px;
     padding: 30px;
     width: 200px;
     height: 100px;
     display: inline-block;
+    margin: 100px;
     margin: 110px;
     cursor: pointer;
-   
+    border-radius: 5px;
+
     top:50%;
     left:50%;
     transform: translate(450%, 180.8%);
     }
- 
-    @import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
-    body{
-      font-family: 'Istok Web', sans-serif;
-      color: #fafafa;
-    }
-    .gradientc {
-        position: relative;
-        padding: 10% 8%;
-      text-align: center;
-        background-image: -webkit-linear-gradient(45deg,#A62671,red 50%,#A62671);
-        background-image: linear-gradient(45deg,#A62671,red 50%,#A62671);
-    }
-
-/*body{
-    background-color: red;
-}*/
-
-div.retangulo {
-    width: 1920px; 
-    height: 100px; 
-    background: #1C1C1C;
-    }
 
     h1{
-        
-        color: navy;
+            color: yellow;
             margin-left: 400px;
         }
 
-    
 
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    transform: translate(-10%, 0%);
+body{
+    background-color: red;
 }
-
-.inputlabel {
-    margin-left: -50px;
-    font-size: 20px;
-    padding:16px 0 17px 0;
-    text-align: center;
-    text-justify: inter-word;
-    white-space: pre-wrap;
-    color: navy;
+#centralizar{
+        position:absolute; 
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
 }
-input {
-    position: relative; 
-    top: 0px; 
-    left: 561px;
-  }
-
-            
-           
-       
-            
- 
-            
-       

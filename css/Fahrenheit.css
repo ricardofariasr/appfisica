@@ -12,14 +12,27 @@
     transform: translate(450%, 180.8%);
     }
 
-
+    @import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
     body{
-
-        background-color: lightblue;
-        
+      font-family: 'Istok Web', sans-serif;
+      color: #fafafa;
     }
-    
-        div.retangulof{
+    .gradientf {
+        position: relative;
+        padding: 10% 8%;
+      text-align: center;
+        background-image: -webkit-linear-gradient(45deg, #85d8ce,#085078 50%,#85d8ce);
+        background-image: linear-gradient(45deg,#85d8ce,#085078 50%,#85d8ce);
+    } 
+    /*
+    body{
+        background-color: lightblue;    
+    }
+    */    
+
+    /*#085078 #85d8ce  */
+
+    div.retangulof{
             width: 1920px; 
             height: 100px; 
             background: #1C1C1C;    

@@ -6,11 +6,11 @@
     display: inline-block;
     margin: 100px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
 
 }
 body{
-    background-image: linear-gradient(lightblue, violet);
+
     background-image: linear-gradient(lightblue, orange, red);
 }
   #centralizar{
@@ -41,18 +41,17 @@ body{
 }
 h1{
     color: navy;
-    margin-left: 550px;
-}
+    margin-left: 400px; }
 h2{
   
     color: navy;
-    margin-left: 510px;
-}
+    margin-left: 360px; }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 68.8%;
+    width: 100.8%;
     opacity:0;
-	-moz-opacity: 0;
+    -moz-opacity: 0;
+  
 }
